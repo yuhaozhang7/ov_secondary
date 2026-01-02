@@ -2,7 +2,7 @@
 
 
 
-    <arg name="config_path" default="/data/config/master_config.yaml" />
+    <arg name="config_path" default="$(find loop_fusion)/../config/master_config.yaml" />
 
 
     <node name="loop_fusion_node" pkg="loop_fusion" type="loop_fusion_node" output="screen" args="$(arg config_path)" required="true">
