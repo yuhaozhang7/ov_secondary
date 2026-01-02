@@ -557,7 +557,7 @@ int main(int argc, char **argv)
 
     int LOAD_PREVIOUS_POSE_GRAPH;
     LOAD_PREVIOUS_POSE_GRAPH = fsSettings["load_previous_pose_graph"];
-    VINS_RESULT_PATH = VINS_RESULT_PATH + "/vio_loop.txt";
+    VINS_RESULT_PATH = VINS_RESULT_PATH + "/ov_loop.txt";
     std::ofstream fout(VINS_RESULT_PATH, std::ios::out);
     fout.close();
 
